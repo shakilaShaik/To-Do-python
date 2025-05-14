@@ -12,7 +12,7 @@ MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 
 # Reference to the database
-db = client["Todos"]
+db = client["todos"]
 
 # Optional: test connection
 try:
